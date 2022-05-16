@@ -1,0 +1,30 @@
+.banner-area {
+    height: 100vh;
+    .container{
+        .row{
+            .col-xxl-12{
+                .banner-content{
+                    h1{
+                        font-size: 80px;
+                        color: $btn-color;
+                        text-transform: capitalize;
+                        font-weight: 700;
+                        line-height: 100px;
+                    }
+                    h4{
+                        color: $btn-color;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                    a{
+                        margin: 30px 5px 0 5px;
+                        transition: .3s;
+                    }
+                    a{
+
+                    }
+                }
+            }
+        }
+    }
+}

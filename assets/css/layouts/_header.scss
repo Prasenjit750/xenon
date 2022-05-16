@@ -1,0 +1,42 @@
+.header-area{
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    .container{
+        .row{
+            .logo{
+                a{
+                    display: inline-block;
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    font-weight: 700;
+                    border: 1px solid $btn-color;
+                    padding: 15px 10px;
+                    color: $btn-color;
+                    &:hover{
+
+                    }
+                }
+            }
+            .menu{
+                ul{
+                    li{
+                        a{
+                            display: block;
+                            color: $btn-color;
+                            font-size: 16px;
+                            font-weight: 600;
+                            margin-left: 15px;
+                            text-transform: uppercase;
+                            transition: .3s;
+                            &:hover{
+                                color: $link-hover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

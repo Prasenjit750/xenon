@@ -1,0 +1,65 @@
+.services-area{
+    background-color: $bg-gray;
+    .section-title{
+        h4{
+            text-transform: capitalize;
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 50px;
+            display: inline-block;
+            position: relative;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            &::before{
+                position:absolute;
+                content: "";
+                width: 60px;
+                height: 2px;
+                background-color: $primary-color;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &::after{
+                position: absolute;
+                content: "";
+                width: 10px;
+                height: 10px;
+                background: $primary-color;
+                bottom: -4px;
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: 50%;
+            }
+        }
+        p{
+
+        }
+    }
+    .single-service {
+        background: $white;
+        padding: 25px 30px;
+        margin-bottom: 50px;
+        border: 1px solid $gray;
+        &:hover{
+            i{
+                border-radius: 50%;
+            }
+        }
+        i{
+            font-size: 20px;
+            background: $primary-color;
+            color: #fff;
+            padding: 20px;
+            transition: .3s;
+        }
+        h4{
+            font-size: 24px;
+            margin: 15px 0;
+            text-transform: capitalize;
+        }
+        p{
+
+        }
+    }
+}
